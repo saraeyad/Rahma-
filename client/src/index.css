@@ -1,0 +1,25 @@
+:root {
+  --ink: #1c2b24;
+  --muted: #5e6b64;
+  --bg: #f3efe6;
+  --card: #fffdf8;
+  --line: #e4ddd0;
+  --code: #f6f1e7;
+  --up: #1d6b45;
+  --up-bg: #e5f4eb;
+  --down: #8d2f2f;
+  --down-bg: #f8e8e6;
+  font: 17px/1.5 'Segoe UI', sans-serif;
+  color: var(--ink);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+}
+
+p {
+  color: var(--muted);
+}

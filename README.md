@@ -1,12 +1,25 @@
 # Rahma
 
-A hospital management REST API built with Node.js and Express.
+A hospital management app. The API is in `server`. Sprint screens are in `client`.
 
-## Run locally
+## API
 
+    cd server
     npm install
     cp .env.example .env
     npm run dev
+
+Check style with `npm run lint` and `npm run format:check`.
+
+## Frontend
+
+Sprint 0 calls `GET /health`.
+
+    cd client
+    npm install
+    npm run dev
+
+Open http://localhost:5173 while the API is running.
 
 ## Endpoints
 

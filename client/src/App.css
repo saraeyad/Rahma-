@@ -1,0 +1,104 @@
+.screen {
+  min-height: 100svh;
+  box-sizing: border-box;
+  display: grid;
+  align-content: center;
+  gap: 12px;
+  width: min(440px, 100%);
+  margin: 0 auto;
+  padding: 32px 20px 48px;
+}
+
+.sprint {
+  margin: 0;
+  font-size: 13px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+h1 {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', serif;
+  font-size: 64px;
+  font-weight: 500;
+  letter-spacing: -1.5px;
+  line-height: 0.95;
+  color: var(--ink);
+}
+
+.lede {
+  margin: 0 0 12px;
+  max-width: 34ch;
+}
+
+.card {
+  display: grid;
+  gap: 16px;
+  padding: 20px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--card);
+  box-shadow: 0 16px 40px rgba(28, 43, 36, 0.06);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 14px;
+}
+
+.row strong {
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: var(--line);
+}
+
+.row strong.up {
+  color: var(--up);
+  background: var(--up-bg);
+}
+
+.row strong.down {
+  color: var(--down);
+  background: var(--down-bg);
+}
+
+pre {
+  margin: 0;
+  padding: 12px 14px;
+  overflow: auto;
+  border-radius: 12px;
+  background: var(--code);
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.error {
+  margin: 0;
+}
+
+button {
+  justify-self: start;
+  padding: 10px 14px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--ink);
+  color: #f7f4ee;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.6;
+}
+
+code {
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 0.92em;
+}
